@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 4000"
   },
   "repository": {
     "type": "git",
@@ -16,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/ryanformio/formio-sandbox/issues"
   },
-  "homepage": "https://github.com/ryanformio/formio-sandbox#readme",
-  "dependencies": {
-    "@formio/premium": "^1.19.1"
-  }
+  "homepage": "https://github.com/ryanformio/formio-sandbox#readme"
 }
